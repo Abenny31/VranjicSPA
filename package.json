@@ -1,14 +1,13 @@
 {
   "name": "vranjicspa",
   "private": true,
-  "homepage": "https://tvoje_korisnicko_ime.github.io/ime-repoa",
-
+  "homepage": "https://vranjic.com",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
 
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
